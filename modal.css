@@ -55,6 +55,6 @@ text-decoration:none;
 
 @media screen and (max-width:800px){
 	#modal{
-		left:10px;
+		left:0px;
 	}
 }
