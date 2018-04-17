@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="navbar.css">
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="navbar.js"></script>
+		<title>Navbar Component</title>
+	</head>
+	
+	<body>
+	<div class="mainContainer">
+	<div class="abc">
+	<button class="navButton">
+				<div class="btnIcon"></div>
+				<div class="btnIcon"></div>
+				<div class="btnIcon"></div>
+			</button></div>
+	
+	<div class="main">
+		<ul>
+				
+			<li><a href="">Home</a></li>
+			<li><a href="">About Us</a></li>
+			<li><a href="">Contact Us</a></li>
+			<div style="width:150px">
+			<li>
+				<a href="" id="drop">Category <img src="arrow.png" style="cursor:pointer"></a>
+			</li>
+			<div class="dropdown">	
+				<li><a href="" class="dropdown1">test 1</a></li>
+				<li><a href="" class="dropdown1">test 2</a></li>
+				<li><a href="" class="dropdown1">test 3</a></li>
+			</div>
+			</div>
+			<li><a href="" class="disabled">Disabled</a></li>
+			<div class="inputType">
+				<input type="text" placeholder="Enter the text">
+				<button id="submit">Submit</button>
+			</div>
+	
+		</ul>
+		
+	</div>
+	</div>
+	
+	</body>
+</html>
