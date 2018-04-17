@@ -52,3 +52,9 @@ text-decoration:none;
 	border-radius:10px;
 	
 }
+
+@media screen and (max-width:800px){
+	#modal{
+		left:10px;
+	}
+}
